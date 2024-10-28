@@ -30,11 +30,11 @@ export default function RootLayout({
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
         
-        <ul className="gap-6 flex justify-evenly mt-5">
+        {/* <ul className="gap-6 flex justify-evenly mt-5">
         <Link href="/">Home</Link>
         <Link href="/about">About</Link>
           <Link href="/dashboard/users">Users</Link>
-        </ul>
+        </ul> */}
 
 
         {children}
