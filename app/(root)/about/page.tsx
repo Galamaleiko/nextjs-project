@@ -1,8 +1,10 @@
 import React from 'react'
 
 const Page = () => {
+  throw new Error("Not Implemented")
+
   return (
-    <div>Page</div>
+    <div className='text-3xl m-4'>About</div>
   )
 }
 
